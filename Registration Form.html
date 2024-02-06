@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<link rel="stylesheet" href="css.regform/regform.css">
+<body>
+
+    <div class="title"> 
+        ONLINE SAFARIS & TOURS AFRICA
+    </div>
+
+    <div class="hdlogo">
+        <img src="main.image/logo.png">
+        <a href="HOME.html" class="home">Home</a>
+    </div>
+
+    <div class="mainform">
+    <div class="regform">
+        <h1>REGISTER HERE</h1>
+    </div>
+
+    <div class="main">
+        <form> <br>
+            <div id="name">
+                <label for="Name" class="name">Name:</label>
+                <input type="text" required class="firstname" placeholder="first name">
+                <input type="text" required class="middlename" placeholder="middle name">
+                <input type="text" required class="lastname" placeholder="last name">
+                </div>
+
+               <br><label for="Age" class="name">Age:</label><br>
+                <input type="date"  required class="age"><br> 
+
+                <label for="gender" class="name">Gender:</label><br>
+                <select class="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select><br>
+
+               <label for="E-mail" class="name">E-mail:</label><br>
+               <input type="email" required class="mail" placeholder="Enter your email address"><br>
+
+               <label for="Phone" class="name">Phone:</label> <br>
+               <input type="number" required class="number" required placeholder="Enter your phone number"><br>
+
+               <label for="password" class="name">Password:</label><br>
+               <input type="password" required class="pass1" placeholder="enter password"> &nbsp;
+               <input type="password" required class="pass2" placeholder="re-enter password"><br><br>
+
+            <center>
+                <p class="condition"><input type="checkbox" required id="terms">&nbsp; I accept the Terms and Conditions.</p><br>
+            </center>
+
+            <center>
+               <input type="submit" class="btn" value="Register">
+               &nbsp; &nbsp; &nbsp;
+               &nbsp; &nbsp; &nbsp;
+               <input type="reset" class="rst" value="Reset">
+               &nbsp; &nbsp; &nbsp; 
+               &nbsp; &nbsp; &nbsp;
+               <a href="SIGN IN.html"><input type="button" class="back" value="Back"></a>
+               </center>
+
+            </div>
+        </div>
+        </form>
+</body>
+</html>
